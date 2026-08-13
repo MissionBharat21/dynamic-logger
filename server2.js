@@ -19,7 +19,7 @@ const PORT = 3000;
 app.set('trust proxy', true);
 
 // CONFIGURATION: Set your dashboard access password here
-const DASHBOARD_PASSWORD = 'Param@Army21'; 
+const DASHBOARD_PASSWORD = 'RamSita@Army21'; 
 const HASHED_PASSWORD = bcrypt.hashSync(DASHBOARD_PASSWORD, 10);
 
 console.log('Connected to JSON database links.json');
